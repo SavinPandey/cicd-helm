@@ -1,6 +1,6 @@
 image:
   repository: savinpandey/cicd-app
-  tag: "latest"  # This will be dynamically updated by the GitHub Actions workflow
+  tag: "v11"
   pullPolicy: Always
 
 replicaCount: 1
