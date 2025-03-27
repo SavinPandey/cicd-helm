@@ -1,0 +1,14 @@
+image:
+  repository: savinpandey/cicd-app
+  tag: "latest"  # This will be dynamically updated by the GitHub Actions workflow
+  pullPolicy: Always
+
+replicaCount: 1
+containerPort: 8000
+
+appName: "Yantras"
+
+service:
+  type: LoadBalancer
+  port: 80
+
